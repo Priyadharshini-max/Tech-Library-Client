@@ -76,7 +76,7 @@ function LoginForm() {
                 <label>Email id :  </label><br />
                 <Field type="email" name="email" /><br />
                 <ErrorMessage name="email">
-                  {msg => <div style={{ color: 'red', paddingLeft: "8 0px", fontWeight: "bold" }}>{msg}</div>}
+                  {msg => <div style={{ color: 'red', paddingLeft: "80px", fontWeight: "bold" }}>{msg}</div>}
                 </ErrorMessage><br />
 
                 <label>Password :  </label><br />
