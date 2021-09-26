@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.fa-user-circle {
+  font-size: xx-large;
+}
+.profile-img-card {
+  height: 100px;
+  width: 100px;
+  border-radius: 50cm;
+  margin-left: 85px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+Button {
+  margin-bottom: 20px !important;
+  margin-left: 90px !important;
+}
+.ResetBtn {
+  margin-bottom: 20px !important;
+  margin-left: 60px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.PWmainDiv {
+  border: 2px solid rgba(128, 128, 128, 0.781);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.596);
+}
+.newPasswordLabel {
+  margin-left: 70px;
+}
+.passwordBtn {
+  margin-top: 20px;
+}
+label {
+  font-weight: 900;
+  margin-left: 95px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  margin-left: 50px !important;
+  margin-right: 30px !important;
+  border-color: rgba(0, 0, 0, 0.801);
+}
+.passwordLink {
+  margin-left: 70px;
+  font-size: 17px;
+}
+.allDataContainer {
+  font-family: "EB Garamond", serif;
+  margin-top: 40px;
+  width: 70% !important;
+}
+.heading {
+  padding-left: 300px;
+}
+.topics,
+.heading {
+  font-weight: 900;
+}
+.Homepage {
+  margin-left: 70%;
+  font-family: "Patua One", cursive;
+}
+.Libraryheading {
+  width: 30%;
+  margin-left: 35%;
+  padding-top: 25%;
+  color: rgba(0, 0, 0, 0.774);
+  font-family: "Patua One", cursive;
+  font-size: 300%;
+}
+.ItemContainer {
+  margin-top: 5%;
+}
+.profileContainer {
+  width: 50% !important;
+  margin-top: 70px;
+  margin-left: 500px;
+  padding-bottom: 90px;
+  padding-top: 60px;
+  border: 2px solid rgba(128, 128, 128, 0.781);
+  background-color: rgba(255, 255, 255, 0.596);
+  padding-left: 150px !important;
+}
+.profileHeading {
+  font-size: 260%;
+  padding-left: 80px;
+}
+
+.card-title.h5,
+a.nav-link {
+  font-size: 23px;
+  padding-left: 30px;
 }

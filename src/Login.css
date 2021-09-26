@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(70deg, skyblue, violet);
+  background-attachment: fixed;
+}
+
+.main {
+  border: 2px solid rgba(128, 128, 128, 0.781);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.596);
+}
+.registerlink {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 425px) {
+  .registerlink {
+    font-size: 15px;
+  }
+}
