@@ -13,7 +13,6 @@ function Profile() {
 
     //Check user authorized or not
     useEffect(() => {
-        console.log("ComponentDidMount is Called....");
         if (localStorage.getItem("Token")) {
             getUser();
         } else {
@@ -25,7 +24,7 @@ function Profile() {
 
     const getUser = async () => {
         try {
-            var { data } = await axios.get("http://localhost:3001/profile", {
+            var { data } = await axios.get("https://tech-library-api.herokuapp.com/profile", {
                 headers: {
                     "access-token": localStorage.getItem("Token")
                 }

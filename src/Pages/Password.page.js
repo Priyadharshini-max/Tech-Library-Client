@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import { toast } from 'react-toastify';
 
-
 const API_URL = "http://localhost:3001/auth/forgotpassword";
 
 export default function Password() {

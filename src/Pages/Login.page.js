@@ -7,7 +7,7 @@ import { Container, Button } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import "../Login.css";
 
-const API_URL = "http://localhost:3001/auth/login";
+const API_URL = "https://tech-library-api.herokuapp.com/auth/login";
 
 function LoginForm() {
 

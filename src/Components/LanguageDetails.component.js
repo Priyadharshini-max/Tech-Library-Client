@@ -27,7 +27,7 @@ function LanguageDetails() {
 
   const getUser = async () => {
     try {
-      var { data } = await axios.get("http://localhost:3001/alldata", {
+      var { data } = await axios.get("https://tech-library-api.herokuapp.com/alldata", {
         headers: {
           "access-token": localStorage.getItem("Token")
         }

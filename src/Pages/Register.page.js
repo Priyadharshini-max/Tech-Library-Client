@@ -5,7 +5,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { Container, Button } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 
-const API_URL = "http://localhost:3001/auth/register";
+const API_URL = "https://tech-library-api.herokuapp.com/auth/register";
 
 function RegistrationForm() {
   // const {history} = this.props;

@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast } from 'react-toastify';
 import { useHistory, useParams } from "react-router-dom";
 
-const API_URL = "http://localhost:3001/auth/resetpassword";
+const API_URL = "https://tech-library-api.herokuapp.com/auth/resetpassword";
 
 export default function ResetPassword() {
     const { token } = useParams();
